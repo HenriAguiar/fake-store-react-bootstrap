@@ -5,6 +5,7 @@ import React, { useEffect, useState, useRef } from 'react';
 
 export default function NavBaar() {
     const [categorieData, setCategorieData] = useState([]);
+    console.log(categorieData)
 
     useEffect(() => {
         fetch('https://fakestoreapi.com/products/categories')
